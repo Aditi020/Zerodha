@@ -55,11 +55,12 @@ div ul li {
 
 
 main {
-    margin-top: 408px;
+    padding: 108px 0px 108px 0px;
     display: flex;
     flex-direction: column;
     gap: 2em;
     margin: 30px 0;
+    /* background-color: aliceblue; */
 }
 
 .head-img {
@@ -84,11 +85,15 @@ main p {
 }
 
 main button {
-    background-color: royalblue;
-    color: white;
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
     padding: 10px 30px;
+    margin: 25px 0px 0px;
     border: none;
-    border-radius: 2px;
     font-size: 1.3em;
     cursor: pointer;
+
+
 }
