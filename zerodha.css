@@ -1,57 +1,91 @@
-body {
-    padding: 0 5%;
-    padding-top: 10px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     align-items: center;
-
 }
 
-ul {
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0px 0px 2px #6666;
+}
+
+.heading {
     display: flex;
     justify-content: space-between;
-    gap: 55px;
+    margin: 0 120px;
+    padding: 25px 0;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-ul,
-a {
-    list-style-type: none;
-    text-decoration: none;
+.heading img {
+    width: 8.5em;
+    height: 1.2em;
+    object-fit: contain;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+div ul li {
+    color: rgba(0, 0, 0, 0.438);
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: .9em;
+}
+
+#navbar-menu {
     color: #666;
+    font-weight: 400;
+    display: inline-block;
+    padding: 20px 0;
 }
 
-.menu-list {
+
+main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 20px;
+    gap: 2em;
+    margin: 30px 0;
 }
 
-.menu-list span {
-    border-top: 3px solid black;
-    width: 100%
+.head-img {
+    width: 662px;
+    height: 287px;
 }
 
-.main-image {
-    margin: auto;
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.m-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+main h1 {
+    color: #424242;
 }
 
-.p-btn {
-    background-color: #387ED1;
+main p {
+    font-size: 1.3em;
+    text-align: center;
+    color: #424242;
+}
+
+main button {
+    background-color: royalblue;
+    color: white;
+    padding: 10px 30px;
     border: none;
-    padding: 10px 20px;
-    color: #fff;
+    border-radius: 2px;
+    font-size: 1.3em;
 }
