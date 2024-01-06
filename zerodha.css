@@ -55,6 +55,7 @@ div ul li {
 
 
 main {
+    margin-top: 408px;
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -62,8 +63,8 @@ main {
 }
 
 .head-img {
-    width: 662px;
-    height: 287px;
+    width: 1181px;
+    height: 497px;
 }
 
 img {
