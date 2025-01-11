@@ -13,9 +13,10 @@ import 'react-toastify/ReactToastify.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="App">
+      <BrowserRouter future={{ v7_startTransition: true }}>
       <Navbar />
-      <Routes>
+      <Routes >
         <Route path="/" element={<HomePage />} />
         <Route path="/Signup/*" element={<SignupPage />} />
         <Route path="/About" element={<Aboutpage />} />
@@ -26,6 +27,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    </div>
   );
 }
 

@@ -1,62 +1,37 @@
-import React from 'react'
+import React from 'react';
 
 function Left({
-    id,
-    imageURL,
+    imagURL,
     productName,
-    productDesription,
+    productDescription,
     tryDemo,
     learnMore,
     googlePlay,
-    appStore,
+    appStore
 }) {
     return (
-        <div className="container mt-5">
-            <br />
-            <br />
 
+        <div className="container mt-5">
             <div className="row">
-                <div className="col-6">
-                    <img src={imageURL} alt="logo" />
+                <div className="col-6 ">
+                    <img src={imagURL} />
                 </div>
                 <div className="col-6 p-5 mt-5">
                     <h1>{productName}</h1>
-                    <p>{productDesription}</p>
-                    <div>
-                        {id === "1" && <div>
-                            <a className="mx-2" href={tryDemo} style={{ textDecoration: "none" }}>
-                                Try Demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                            </a>
-                            <a href={learnMore} style={{ textDecoration: "none" }}>
-                                Learn More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                            </a>
-                        </div>}
+                    <p>{productDescription}</p>
 
-                        {id === "2" && <div>
-                            <a className="mx-2" href={tryDemo} style={{ textDecoration: "none" }}>
-                                Coin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                            </a>
-                        </div>}
-
+                    <div className='mt-3'>
+                        <a href={tryDemo} style={{ textDecoration: "none" }}>Try Demo <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href={learnMore} style={{ marginLeft: "120px", textDecoration: "none" }}>Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
-                    <div className="mt-3">
-                        <a href={googlePlay}>
-                            <img src="Assets/googlePlayBadge.svg" alt="logo" />
-                        </a>
-                        <a href={appStore}>
-                            <img
-                                src="Assets/appstoreBadge.svg"
-                                style={{ marginLeft: "50px" }}
-                                alt="logo"
-                            />
-                        </a>
+                    <div className='mt-3'>
+                        <a href={googlePlay}><img src='/src/Assets/googlePlayBadge.svg' /></a>
+                        <a href={appStore} style={{ marginLeft: "50px" }}><img src='/src/Assets/appstoreBadge.svg' /></a>
                     </div>
                 </div>
             </div>
-            <br />
-            <br />
         </div>
-    )
+    );
 }
 
-export default Left
+export default Left;

@@ -1,24 +1,24 @@
-import React from 'react'
-import Awards from './Awards'
-import Education from './Education'
-import Navbar from '../../UI/Navbar.jsx'
-import Pricing from './Pricing'
-import Stats from './Stats'
-import Openaccount from "../../UI/OpenAccount.jsx"
-import Footer from '../../UI/Footer.jsx'
-import HeroSec from './HeroSec.jsx'
+import React from 'react';
+import Hero from './Hero';
+import Awards from './Awards';
+import Stats from './Stats';
+import Pricing from './Pricing';
+import Education from './Education';
+import OpenAccount from '../../UI/OpenAccount';
+// import Navbar from '../../UI/Navbar';
+// import Footer from '../Footer';
 
-function HomePage() {
+function Home() {
     return (
-        <div>
-            <HeroSec />
+        <>
+            <Hero />
             <Awards />
             <Stats />
             <Pricing />
             <Education />
-            <Openaccount />
-        </div>
-    )
+            <OpenAccount />
+        </>
+    );
 }
 
-export default HomePage
+export default Home;
