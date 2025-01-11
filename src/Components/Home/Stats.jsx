@@ -1,5 +1,5 @@
 import React from "react";
-import './Stats.css';
+import '../../Styles/Stats.css';  
 
 function Stats() {
     return (
@@ -30,7 +30,7 @@ function Stats() {
                     </p>
                 </div>
                 <div className="col-12 col-md-6 p-5 text-center">
-                    <img src="media/images/ecosystem.png" alt="Ecosystem" className="img-fluid mb-4" />
+                    <img src="Assets/ecosystem.png" alt="Ecosystem" className="img-fluid mb-4" />
                     <div className="text-center">
                         <a href="" className="d-block mb-2 fs-6">
                             Explore our products{" "}

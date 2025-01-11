@@ -1,5 +1,5 @@
 import React from 'react';
-import './Awards.css';
+import '../../Styles/Awards.css';
 
 function Awards() {
     return (
@@ -7,7 +7,7 @@ function Awards() {
             <div className="row">
                 <div className="col-12 col-md-6 p-3 p-md-5">
                     <img
-                        src="media/images/largestBroker.svg"
+                        src="Assets/largestBroker.svg"
                         alt="Largest Stock Broker"
                         className="img-fluid"
                     />
@@ -35,7 +35,7 @@ function Awards() {
                         </div>
                     </div>
                     <img
-                        src="media/images/pressLogos.png"
+                        src="Assets/pressLogos.png"
                         alt="Press Logos"
                         className="img-fluid mt-4"
                         style={{ width: '100%' }}

@@ -1,12 +1,12 @@
 import React from 'react'
 import Awards from './Awards'
 import Education from './Education'
-import Navbar from '../Navbar.js'
+import Navbar from '../../UI/Navbar.jsx'
 import Pricing from './Pricing'
 import Stats from './Stats'
-import Openaccount from "../Openaccount.js"
-import Footer from '../Footer.js'
-import HeroSec from './HeroSec.js'
+import Openaccount from "../../UI/OpenAccount.jsx"
+import Footer from '../../UI/Footer.jsx'
+import HeroSec from './HeroSec.jsx'
 
 function HomePage() {
     return (

@@ -7,7 +7,6 @@ function About() {
             <Hero />
             <Team />
         </div>
-
     )
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.css';
+import '../../Styles/HeroSec.css';
 
 function Hero() {
     return (
@@ -7,7 +7,7 @@ function Hero() {
             <div className="row justify-content-center text-center">
                 <div className="col-12 col-sm-10 col-md-8 col-lg-6 d-flex flex-column align-items-center">
                     <img
-                        src="media/images/homeHero.png"
+                        src="Assets/homeHero.png"
                         alt="Hero Image"
                         className="img-fluid mb-4 hero-image"
                     />
