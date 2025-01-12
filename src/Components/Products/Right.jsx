@@ -4,7 +4,7 @@ function Right({
     imagURL,
     productName,
     productDescription,
-    tryDemo,
+    // tryDemo,
     learnMore,
 }) {
     return (

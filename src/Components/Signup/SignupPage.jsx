@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Home from '../../Assets/homeHero.png';
 const SignupPage = () => {
     return (
         <div
@@ -42,7 +42,7 @@ const SignupPage = () => {
                         }}
                     >
                         <img
-                            src="/src/Assets/homeHero.png"
+                            src={Home}
                             alt="Zerodha's signup landing page"
                             role="img"
                             aria-label="Mobile Landing Page Image"

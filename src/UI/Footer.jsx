@@ -1,12 +1,12 @@
 import React from 'react';
-
+import logo from '../Assets/logo.svg'
 function Footer() {
     return (
         <footer style={{ backgroundColor: "rgb(250,250,250)" }}>
             <div className="container border-top mt-5">
                 <div className="row mt-5">
                     <div className="col">
-                        <img src="/src/Assets/logo.svg" style={{ width: "50%" }} />
+                        <img src={logo} style={{ width: "50%" }} />
                         <p>&copy;  2010 - 2024, Zerodha Broking Ltd.<br />All rights reserved.</p>
                         <div>
                             <a href='' style={{ marginRight: "20px", color: "#000", fontSize: "20px" }} className='text-muted' ><i class="fa-brands fa-x-twitter"></i></a>

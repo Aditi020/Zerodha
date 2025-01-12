@@ -1,4 +1,12 @@
 import React from 'react';
+import SmallCaseLogo from '../../Assets/smallcaseLogo.png'
+import StreakLogo from '../../Assets/streakLogo.png'
+import SensiBullLogo from '../../Assets/sensibullLogo.svg'
+import ZerodhaFundhouse from '../../Assets/zerodhaFundhouse.png'
+import GoldenPiLogo from '../../Assets/goldenpiLogo.png'
+import DittoLogo from '../../Assets/dittoLogo.png'
+
+
 
 function Main() {
     return (
@@ -7,37 +15,37 @@ function Main() {
                 <h1>The Zerodha Main</h1>
                 <p>Extend your trading and investment experience even further with our partner platforms</p>
                 <div className="col-4 p-3 mt-3 ">
-                    <img src="/src/Assets/smallcaseLogo.png" />
+                    <img src={SmallCaseLogo} />
                     <p className='text-small text-muted'>Our asset management venture
                         that is creating simple and transparent index
                         funds to help you save for your goals.</p>
                 </div>
                 <div className="col-4 p-3 mt-3">
-                    <img src="/src/Assets/streakLogo.png" style={{ width: "50%" }} />
+                    <img src={StreakLogo} style={{ width: "50%" }} />
                     <p className='text-small text-muted'>Systematic trading platform
                         that allows you to create and backtest
                         strategies without coding.</p>
                 </div>
                 <div className="col-4 p-3 mt-3">
-                    <img src="/src/Assets/sensibullLogo.svg" />
+                    <img src={SensiBullLogo} />
                     <p className='text-small text-muted'>Our asset management venture
                         that is creating simple and transparent index
                         funds to help you save for your goals.</p>
                 </div>
                 <div className="col-4 p-3 mt-3">
-                    <img src="/src/Assets/ZerodhaFundhouse.png" />
+                    <img src={ZerodhaFundhouse}/>
                     <p className='text-small text-muted'>Our asset management venture
                         that is creating simple and transparent index
                         funds to help you save for your goals.</p>
                 </div>
                 <div className="col-4 p-3 mt-3">
-                    <img src="/src/Assets/goldenpiLogo.png" />
+                    <img src={GoldenPiLogo}/>
                     <p className='text-small text-muted'>Thematic investing platform
                         that helps you invest in diversified
                         baskets of stocks on ETFs.</p>
                 </div>
                 <div className="col-4 p-3 mt-3">
-                    <img src="/src/Assets/dittoLogo.png" style={{ width: "40%" }} />
+                    <img src={DittoLogo}le={{ width: "40%" }} />
                     <p className='text-small text-muted'>Our asset management venture
                         that is creating simple and transparent index
                         funds to help you save for your goals.</p>

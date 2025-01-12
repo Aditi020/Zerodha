@@ -1,4 +1,7 @@
 import React from 'react';
+import chart from '../../Assets/chart.png'
+import Arrow from '../../Assets/arrow.png'
+import Game from '../../Assets/game.png'
 
 function Ticket() {
     return (
@@ -35,7 +38,7 @@ function Ticket() {
                 {/* Trading and Markets Section */}
                 <div className="col-4 p-5 mt-2 mb-2">
                     <h4 className="fs-5">
-                        <img src="media/images/chart.png" style={{ width: "10%" }} alt="logo" /> Trading and Markets
+                        <img src={chart} style={{ width: "10%" }} alt="Arrow" /> Trading and Markets
                     </h4>
                     <a href="#" style={{ textDecoration: "none", lineHeight: "2.5" }}>Trading FAQs</a><br />
                     <a href="#" style={{ textDecoration: "none", lineHeight: "2.5" }}>Kite</a><br />
@@ -59,7 +62,7 @@ function Ticket() {
                 {/* Console Section */}
                 <div className="col-4 p-5 mt-2 mb-2">
                     <h4 className="fs-5">
-                        <img src="media/images/arrow.png" style={{ width: "10%" }} alt="logo" /> Console
+                        <img src={Arrow} style={{ width: "10%" }} alt="Arrow" /> Console
                     </h4>
                     <a href="#" style={{ textDecoration: "none", lineHeight: "2.5" }}>IPO</a><br />
                     <a href="#" style={{ textDecoration: "none", lineHeight: "2.5" }}>Portfolio</a><br />
@@ -72,7 +75,7 @@ function Ticket() {
                 {/* Coin Section */}
                 <div className="col-4 p-5 mt-2 mb-2">
                     <h4 className="fs-5">
-                        <img src="media/images/game.png" style={{ width: "10%" }} alt="logo" /> Coin
+                        <img src={Game} style={{ width: "10%" }} alt="Arrow" /> Coin
                     </h4>
                     <a href="#" style={{ textDecoration: "none", lineHeight: "2.5" }}>Understanding mutual funds and Coin</a><br />
                     <a href="#" style={{ textDecoration: "none", lineHeight: "2.5" }}>Coin app</a><br />

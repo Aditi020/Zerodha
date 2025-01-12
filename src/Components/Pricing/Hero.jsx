@@ -1,4 +1,7 @@
 import React from "react";
+import PricingEquity from '../../Assets/pricingEquity.svg'
+import IntradayTradesCoin from '../../Assets/intradayTrades.svg'
+// import PricingEquity from '../Assets/pricingEquity.svg'
 
 function Hero() {
     return (
@@ -11,7 +14,7 @@ function Hero() {
             </div>
             <div className="row pt-5 mt-5 text-center">
                 <div className="col-4">
-                    <img src="/src/Assets/pricingEquity.svg" style={{ width: "80%" }} />
+                    <img src={PricingEquity} style={{ width: "80%" }} />
                     <h3>Free equity delivery</h3>
                     <p className="text-muted p-2">
                         All equity delivery investments (NSE, BSE),
@@ -20,7 +23,7 @@ function Hero() {
                     </p>
                 </div>
                 <div className="col-4">
-                    <img src="/src/Assets/intradayTrades.svg" style={{ width: "80%" }} />
+                    <img src={IntradayTradesCoin} style={{ width: "80%" }} />
                     <h3>Intraday and F&O trades</h3>
                     <p className="text-muted p-2">
                         Flat ₹ 20 or 0.03% (whichever is lower)
@@ -33,7 +36,7 @@ function Hero() {
                     </p>
                 </div>
                 <div className="col-4">
-                    <img src="/src/Assets/pricingEquity.svg" style={{ width: "80%" }} />
+                    <img src={PricingEquity} style={{ width: "80%" }} />
                     <h3>Free direct MF</h3>
                     <p className="text-muted p-2">
                         All direct mutual fund investments are
